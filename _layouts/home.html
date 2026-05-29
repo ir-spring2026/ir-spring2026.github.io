@@ -1,0 +1,168 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1>
+
+    {% include announcements.html %}
+    <br />
+
+    <h2>Course Description</h2>
+    <p>{{ site.course_description }}</p>
+    
+    {{ content }}
+
+    
+    <div class="course-links">
+        <h2>Course Links</h2>
+        <ul>
+            <li><a href="https://t.me/Algorithm_Spring2026">Telegram Channel</a></li>
+            <li><a href="https://quera.org/course/add_to_course/course/26937/">Quera Course Page</a></li>
+        </ul>
+    </div>
+
+    {% if site.data.previous_offering and site.data.previous_offering.offerings and site.data.previous_offering.offerings.size > 0 %}
+    <h2>Previous Offerings</h2>
+    <ul class="previous-offerings">
+    {% for offer in site.data.previous_offering.offerings %}
+    <li><a href="{{ offer.url }}">{{offer.title}}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    <br>
+
+    
+    <div class="staff-grid" style="text-align: center; margin-top: 20px;">
+
+        
+        <h2 class="role-title">Instructor</h2>
+        <div class="staff-row single" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 30px;">
+            {% for ins in site.data.people.instructors %}
+            <div class="person" style="width: 130px; text-align: center;">
+                <img src="{{ ins.profile_pic | prepend: site.baseurl }}" class="image--cover" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 8px;">
+                {% if ins.webpage %}
+                <p><a href="{{ ins.webpage }}">{{ ins.name }}</a></p>
+                {% else %}
+                <p>{{ ins.name }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+
+        
+        {% assign head_tas = site.data.people.teaching_assistants | slice:0,2 %}
+        {% if head_tas.size > 0 %}
+        <h2 class="role-title">Head Teaching Assistants</h2>
+        <div class="staff-row double" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 30px;">
+            {% for person in head_tas %}
+            <div class="person" style="width: 130px; text-align: center;">
+                <img src="{{ person.profile_pic | prepend: site.baseurl }}" class="image--cover" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 8px;">
+                {% if person.webpage %}
+                <p><a href="{{ person.webpage }}">{{ person.name }}</a></p>
+                {% else %}
+                <p>{{ person.name }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        
+        {% assign regular_tas = site.data.people.teaching_assistants | slice:2, 999 %}
+        {% if regular_tas.size > 0 %}
+        <h2 class="role-title">Teaching Assistants</h2>
+            
+            
+            <div class="staff-row triple" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 15px;">
+                {% for i in (0..3) %}
+                    {% if i < regular_tas.size %}
+                        {% assign person = regular_tas[i] %}
+                        <div class="person" style="width: 130px; text-align: center;">
+                            <img src="{{ person.profile_pic | prepend: site.baseurl }}" class="image--cover" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 8px;">
+                            {% if person.webpage %}
+                            <p><a href="{{ person.webpage }}">{{ person.name }}</a></p>
+                            {% else %}
+                            <p>{{ person.name }}</p>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            
+            {% if regular_tas.size > 4 %}
+            <div class="staff-row triple" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+                {% for i in (4..regular_tas.size) %}
+                    {% if i < regular_tas.size %}
+                        {% assign person = regular_tas[i] %}
+                        <div class="person" style="width: 130px; text-align: center;">
+                            <img src="{{ person.profile_pic | prepend: site.baseurl }}" class="image--cover" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 8px;">
+                            {% if person.webpage %}
+                            <p><a href="{{ person.webpage }}">{{ person.name }}</a></p>
+                            {% else %}
+                            <p>{{ person.name }}</p>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        {% endif %}
+
+    </div>
+
+</div>
+
+<style>
+.image--cover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.role-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.course-links {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.course-links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.course-links li {
+    margin-bottom: 5px;
+}
+
+.course-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.course-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .person {
+        width: 100px !important;
+    }
+    .image--cover {
+        width: 70px !important;
+        height: 70px !important;
+    }
+}
+</style>

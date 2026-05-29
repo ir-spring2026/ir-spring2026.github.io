@@ -1,0 +1,35 @@
+<style>
+ul.menu {
+    display: flex;
+    justify-content: flex-start; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.menu li {
+    margin: 0 60px 0 0; 
+}
+ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+ul.menu li a:hover {
+    color: #007bff;
+}
+ul.menu li a i {
+    margin-right: 18px;
+}
+</style>
+
+<ul class="menu">
+    {% for item in site.data.nav.items %}
+    <li>
+        <a class="page-link" href="{{ item.url | prepend: site.baseurl }}">
+            <i class="{{ item.icon_class }}"></i> {{ item.name }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

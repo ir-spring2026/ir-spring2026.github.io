@@ -1,0 +1,52 @@
+# Site settings
+course_name: "Algorithm Design"
+course_description: "This course introduces fundamental principles and formal techniques for designing and analyzing algorithms. Core topics include classical design paradigms, complexity analysis, and correctness reasoning. Emphasis is placed on developing efficient solutions to computational problems and evaluating algorithmic performance within theoretical and practical contexts"
+course_semester: "spring 2026"
+
+baseurl: ""  # خالی بگذار
+url: "https://algo-spring2026.github.io"  # آدرس سایت شما
+
+schoolname: "Islamic Azad University Shiraz Branch"
+schoolurl: "https://Shiraz.iau.ir"
+
+
+address: |
+    Islamic Azad University Shiraz Branch
+    Shiraz Branch
+    Shiraz - Iran
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
