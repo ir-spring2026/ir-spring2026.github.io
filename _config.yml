@@ -1,6 +1,6 @@
 # Site settings
-course_name: "Algorithm Design"
-course_description: "This course introduces fundamental principles and formal techniques for designing and analyzing algorithms. Core topics include classical design paradigms, complexity analysis, and correctness reasoning. Emphasis is placed on developing efficient solutions to computational problems and evaluating algorithmic performance within theoretical and practical contexts"
+course_name: "Information Retrieval"
+course_description: "Information retrieval is the process through which a computer system can respond to a user's query for text-based information on a specific topic. Information retrieval was one of the first and remains one of the most important problems in the domain of natural language processing. Web search is the application of information retrieval techniques to the largest corpus of text anywhere and it is the area in which most people interact with information retrieval systems most frequently. In this course, we will cover basic and advanced techniques for building text-based information systems, including efficient text indexing, Boolean and vector-space retrieval models, evaluation and interface, issues, information retrieval techniques for the web, including crawling, link-based algorithms, and metadata usage, document clustering and classification, traditional and machine learning-based ranking approaches, questiona and answering systems, and recommender systems."
 course_semester: "spring 2026"
 
 baseurl: ""  # خالی بگذار
