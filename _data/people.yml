@@ -9,14 +9,21 @@ teaching_assistants:
     profile_pic: /_images/pp/Hamid_Namjoo.jpg
     webpage: https://www.linkedin.com/in/hmaid-namjoo
 
-  
+  - name: Amirhossein Hemmati
+    profile_pic: /_images/amir hossein hemati.jpg
+    webpage: "https://t.me/A2_1380"
+    telegram: "@A2_1380"
+    email: ""
+    
 
-  # پسران
   - name: Ali Nikvan 
     profile_pic: /_images/pp/ali nikwan.jpg
     webpage: "https://t.me/xalleenx"
     telegram: "@xalleenx"
 
-  - name: Amit javvi
+  - name: Amir Javvi 
     profile_pic: /_images/pp/Amir javvi.jpg
     webpage: ""
+    email: 
+
+  
