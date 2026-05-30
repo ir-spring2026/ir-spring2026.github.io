@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Algorithm Design Course"
+title: "Welcome to Information Retrieval Course"
 date: 2026-02-05
 ---
 
