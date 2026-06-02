@@ -1,30 +1,30 @@
 ---
 layout: page
-title: پروژه درس
+title: Course Project
 permalink: /project/
 ---
 
-# پروژه بازیابی اطلاعات (IR)
+# Information Retrieval (IR) Course Project
 
-این درس شامل **سه فاز پروژه** است. هر فاز شامل یک فایل فشرده (ZIP) حاوی دستورالعمل‌ها، داده‌ها و کدهای اولیه می‌باشد. برای دانلود هر فاز، روی لینک مربوطه کلیک کنید.
-
----
-
-## 📁 فاز اول: نمایه‌سازی و جستجوی بولین
-- **فایل پروژه**: [دانلود MIR__4042__Phase-1.zip]({{ site.baseurl }}/static_files/project/F1/MIR__4042__Phase-1.zip)
-- هدف: پیاده‌سازی یک نمایه‌ساز ساده و جستجوی بولین روی مجموعه اسناد.
-- تاریخ تحویل: **به زودی اعلام می‌شود**
-
-## 📁 فاز دوم: مدل فضای برداری و رتبه‌بندی
-- **فایل پروژه**: [دانلود IR__Phase-2.zip]({{ site.baseurl }}/static_files/project/F2/IR__Phase-2.zip)
-- هدف: پیاده‌سازی TF-IDF، محاسبه شباهت کسینوسی و ارزیابی.
-- تاریخ تحویل: **به زودی اعلام می‌شود**
-
-## 📁 فاز سوم: رتبه‌بندی مبتنی بر یادگیری ماشین
-- **فایل پروژه**: [دانلود IR__Spring2026__Phase3.zip]({{ site.baseurl }}/static_files/project/F3/IR__Spring2026__Phase3.zip)
-- هدف: استفاده از مدل‌های رتبه‌بندی (مانند Ranking SVM یا LightGBM) و مقایسه با روش‌های سنتی.
-- تاریخ تحویل: **به زودی اعلام می‌شود**
+This course includes **three project phases**. Each phase contains a ZIP file with instructions, datasets, and starter code. Click on the links below to download each phase.
 
 ---
 
-> توجه: جزئیات کامل هر فاز و نحوه تحویل از طریق کانال تلگرام و همین وب‌سایت اعلام خواهد شد. در صورت بروز مشکل در دانلود، با دستیاران آموزشی تماس بگیرید.
+## 📁 Phase 1: Indexing and Boolean Retrieval
+- **Project File**: [Download MIR__4042__Phase-1.zip]({{ site.baseurl }}/static_files/project/F1/MIR__4042__Phase-1.zip)
+- Goal: Implement a simple indexer and Boolean search over a document collection.
+- Deadline: **To be announced**
+
+## 📁 Phase 2: Vector Space Model and Ranking
+- **Project File**: [Download IR__Phase-2.zip]({{ site.baseurl }}/static_files/project/F2/IR__Phase-2.zip)
+- Goal: Implement TF‑IDF, cosine similarity, and evaluation metrics.
+- Deadline: **To be announced**
+
+## 📁 Phase 3: Learning to Rank
+- **Project File**: [Download IR__Spring2026__Phase3.zip]({{ site.baseurl }}/static_files/project/F3/IR__Spring2026__Phase3.zip)
+- Goal: Apply machine learning ranking models (e.g., Ranking SVM or LightGBM) and compare with traditional methods.
+- Deadline: **To be announced**
+
+---
+
+> Note: Detailed instructions and submission guidelines for each phase will be announced via Telegram channel and this website. If you face any issue with downloading, please contact the teaching assistants.
