@@ -125,6 +125,27 @@ permalink: /lectures/
   </table>
 </div>
 
+<h2>📝 Quizzes</h2>
+<div class="lectures-container">
+  <table class="lectures-table">
+    <thead>
+      <tr>
+        <th style="width: 10%;">Quiz</th>
+        <th style="width: 60%;">Title / Description</th>
+        <th style="width: 30%;">Download</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="{{ site.baseurl }}/static_files/quizzes/Quiz-1.pdf">📄 PDF</a></td></tr>
+      <tr><td><strong>2</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="{{ site.baseurl }}/static_files/quizzes/Quiz-2.PDF">📄 PDF</a></td></tr>
+      <tr><td><strong>3</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="{{ site.baseurl }}/static_files/quizzes/Quiz-3%20.pdf">📄 PDF</a></td></tr>
+      <tr><td><strong>4</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="{{ site.baseurl }}/static_files/quizzes/Quiz-4%20.pdf">📄 PDF</a></td></tr>
+      <tr><td><strong>5</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="{{ site.baseurl }}/static_files/quizzes/Quiz-5.pdf">📄 PDF</a></td></tr>
+      <tr><td><strong>6</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="{{ site.baseurl }}/static_files/quizzes/Quiz-6%E2%80%94The%20Last%20Chapter...pdf">📄 PDF</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
 <div class="supplement-card">
   <h3>📊 Supplementary Material – Evaluation Metrics</h3>
   <p>A concise yet comprehensive summary of key evaluation metrics in Information Retrieval (precision, recall, MAP, nDCG, etc.) accompanied by practical exercises.</p>
