@@ -7,6 +7,7 @@ permalink: /materials/
 <style>
   .materials-container {
     max-width: 100%;
+    overflow-x: auto;
   }
   .image-card {
     float: right;
@@ -87,6 +88,7 @@ permalink: /materials/
     padding: 1.2rem 1.5rem;
     margin: 1.5rem 0;
     border-left: 5px solid #1e3c72;
+    clear: both;
   }
   .similar-courses ul {
     margin: 0;
@@ -101,6 +103,7 @@ permalink: /materials/
     border-radius: 16px;
     padding: 1.2rem 1.5rem;
     border-left: 5px solid #1e3c72;
+    clear: both;
   }
   .extra-card h3 {
     margin-top: 0;
@@ -126,7 +129,7 @@ permalink: /materials/
 
 <div class="materials-container">
   <div class="image-card">
-    <img src="{{ site.baseurl }}/_images/screenshots/image.png.jpeg" alt="IR illustration">
+    <img src="{{ site.baseurl }}/_images/screenshots/OIP.webp" alt="Information Retrieval illustration">
   </div>
 
   <p><strong>Lecture slides</strong> are available per session in the <a href="{{ site.baseurl }}/lectures/" class="external-link">Lectures section</a>. There is no single comprehensive handout.</p>
@@ -142,19 +145,19 @@ permalink: /materials/
     </thead>
     <tbody>
       <tr>
-        <td><strong>[MRS]</strong></td>
-        <td>Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze – <em>Introduction to Information Retrieval</em> (Cambridge, 2008)</td>
-        <td><a class="download-link" href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">📄 PDF</a></td>
+        <td><strong>[MRS]</strong></th>
+        <td>Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze – <em>Introduction to Information Retrieval</em> (Cambridge, 2008)</th>
+        <td><a class="download-link" href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">📄 PDF</a></th>
       </tr>
       <tr>
-        <td><strong>[HNG]</strong></td>
-        <td>Hang Li – <em>Learning to Rank for Information Retrieval and Natural Language Processing</em> (Morgan & Claypool, 2011)</td>
-        <td><a class="download-link" href="https://www.iro.umontreal.ca/~nie/IFT6255/Books/Learning-to-rank.pdf">📄 PDF</a></td>
+        <td><strong>[HNG]</strong></th>
+        <td>Hang Li – <em>Learning to Rank for Information Retrieval and Natural Language Processing</em> (Morgan & Claypool, 2011)</th>
+        <td><a class="download-link" href="https://www.iro.umontreal.ca/~nie/IFT6255/Books/Learning-to-rank.pdf">📄 PDF</a></th>
       </tr>
       <tr>
-        <td><strong>[MC]</strong></td>
-        <td>Bhaskar Mitra, Nick Craswell – <em>An Introduction to Neural Information Retrieval</em> (Foundations and Trends in IR, 2018)</td>
-        <td><a class="external-link" href="https://www.emerald.com/ftinr/article-abstract/13/1/1/1328679/An-Introduction-to-Neural-Information-Retrieval?redirectedFrom=fulltext">🔗 Access Link</a></td>
+        <td><strong>[MC]</strong></th>
+        <td>Bhaskar Mitra, Nick Craswell – <em>An Introduction to Neural Information Retrieval</em> (Foundations and Trends in IR, 2018)</th>
+        <td><a class="external-link" href="https://www.emerald.com/ftinr/article-abstract/13/1/1/1328679/An-Introduction-to-Neural-Information-Retrieval?redirectedFrom=fulltext">🔗 Access Link</a></th>
       </tr>
     </tbody>
   </table>
