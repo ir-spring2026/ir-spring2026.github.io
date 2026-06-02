@@ -108,72 +108,56 @@ permalink: /lectures/
 </style>
 
 <div class="two-columns">
-  <!-- ستون اول: جدول جلسات -->
   <div class="column">
     <h2>📖 Lectures (Sessions 1–21)</h2>
     <div class="lectures-container">
       <table class="lectures-table">
-        <thead>
-          <tr>
-            <th style="width: 12%;">Session</th>
-            <th style="width: 60%;">Chapter Title</th>
-            <th style="width: 28%;">Download</th>
-          </tr>
-        </thead>
+        <thead><tr><th style="width: 12%;">Session</th><th style="width: 60%;">Chapter Title</th><th style="width: 28%;">Download</th></tr></thead>
         <tbody>
-          <tr><td>1</td><td>Boolean retrieval</td><td><a class="download-link" href="/static_files/lectures/ch1.pdf">📄 PDF</a></td></tr>
-          <tr><td>2</td><td>The term vocabulary and postings lists</td><td><a class="download-link" href="/static_files/lectures/ch2.pdf">📄 PDF</a></td></tr>
-          <tr><td>3</td><td>Dictionaries and tolerant retrieval</td><td><a class="download-link" href="/static_files/lectures/ch3.pdf">📄 PDF</a></td></tr>
-          <tr><td>4</td><td>Index construction</td><td><a class="download-link" href="/static_files/lectures/ch4.pdf">📄 PDF</a></td></tr>
-          <tr><td>5</td><td>Index compression</td><td><a class="download-link" href="/static_files/lectures/ch5.pdf">📄 PDF</a></td></tr>
-          <tr><td>6</td><td>Scoring, term weighting and the vector space model</td><td><a class="download-link" href="/static_files/lectures/ch6.pdf">📄 PDF</a></td></tr>
-          <tr><td>7</td><td>Computing scores in a complete search system</td><td><a class="download-link" href="/static_files/lectures/ch7.pdf">📄 PDF</a></td></tr>
-          <tr><td>8</td><td>Evaluation in information retrieval</td><td><a class="download-link" href="/static_files/lectures/ch8.pdf">📄 PDF</a></td></tr>
+          <tr><td>1</td><td>Boolean retrieval</td><td><a class="download-link" href="/static_files/static_files/lectures/ch1.pdf">📄 PDF</a></td></tr>
+          <tr><td>2</td><td>The term vocabulary and postings lists</td><td><a class="download-link" href="/static_files/static_files/lectures/ch2.pdf">📄 PDF</a></td></tr>
+          <tr><td>3</td><td>Dictionaries and tolerant retrieval</td><td><a class="download-link" href="/static_files/static_files/lectures/ch3.pdf">📄 PDF</a></td></tr>
+          <tr><td>4</td><td>Index construction</td><td><a class="download-link" href="/static_files/static_files/lectures/ch4.pdf">📄 PDF</a></td></tr>
+          <tr><td>5</td><td>Index compression</td><td><a class="download-link" href="/static_files/static_files/lectures/ch5.pdf">📄 PDF</a></td></tr>
+          <tr><td>6</td><td>Scoring, term weighting and the vector space model</td><td><a class="download-link" href="/static_files/static_files/lectures/ch6.pdf">📄 PDF</a></td></tr>
+          <tr><td>7</td><td>Computing scores in a complete search system</td><td><a class="download-link" href="/static_files/static_files/lectures/ch7.pdf">📄 PDF</a></td></tr>
+          <tr><td>8</td><td>Evaluation in information retrieval</td><td><a class="download-link" href="/static_files/static_files/lectures/ch8.pdf">📄 PDF</a></td></tr>
           <tr><td>9</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
           <tr><td>10</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
-          <tr><td>11</td><td>Chapter 11 <em>(title to be confirmed)</em></td><td><a class="download-link" href="/static_files/lectures/ch11.pdf">📄 PDF</a></td></tr>
+          <tr><td>11</td><td>Chapter 11 (title to be confirmed)</td><td><a class="download-link" href="/static_files/static_files/lectures/ch11.pdf">📄 PDF</a></td></tr>
           <tr><td>12</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
-          <tr><td>13</td><td>Chapter 13 <em>(title to be confirmed)</em></td><td><a class="download-link" href="/static_files/lectures/ch13.pdf">📄 PDF</a></td></tr>
-          <tr><td>14</td><td>Vector space classification</td><td><a class="download-link" href="/static_files/lectures/Ch14.pdf">📄 PDF</a></td></tr>
-          <tr><td>15</td><td>Support vector machines and machine learning on documents</td><td><a class="download-link" href="/static_files/lectures/Ch15.pdf">📄 PDF</a></td></tr>
+          <tr><td>13</td><td>Chapter 13 (title to be confirmed)</td><td><a class="download-link" href="/static_files/static_files/lectures/ch13.pdf">📄 PDF</a></td></tr>
+          <tr><td>14</td><td>Vector space classification</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch14.pdf">📄 PDF</a></td></tr>
+          <tr><td>15</td><td>Support vector machines and machine learning on documents</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch15.pdf">📄 PDF</a></td></tr>
           <tr><td>16</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
           <tr><td>17</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
           <tr><td>18</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
-          <tr><td>19</td><td>Web search basics</td><td><a class="download-link" href="/static_files/lectures/Ch19.pdf">📄 PDF</a></td></tr>
-          <tr><td>20</td><td>Web crawling and indexes</td><td><a class="download-link" href="/static_files/lectures/Ch20.pdf">📄 PDF</a></td></tr>
-          <tr><td>21</td><td>Link analysis</td><td><a class="download-link" href="/static_files/lectures/Ch21.pdf">📄 PDF</a></td></tr>
+          <tr><td>19</td><td>Web search basics</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch19.pdf">📄 PDF</a></td></tr>
+          <tr><td>20</td><td>Web crawling and indexes</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch20.pdf">📄 PDF</a></td></tr>
+          <tr><td>21</td><td>Link analysis</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch21.pdf">📄 PDF</a></td></tr>
         </tbody>
       </table>
     </div>
   </div>
-
-  <!-- ستون دوم: جدول کوئیزها -->
   <div class="column">
     <h2>📝 Quizzes</h2>
     <div class="lectures-container">
       <table class="lectures-table">
-        <thead>
-          <tr>
-            <th>Quiz</th>
-            <th>Title / Description</th>
-            <th>Download</th>
-          </tr>
-        </thead>
+        <thead><tr><th>Quiz</th><th>Title / Description</th><th>Download</th></tr></thead>
         <tbody>
-          <tr><td><strong>1</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/quizzes/Quiz-1.pdf">📄 PDF</a></td></tr>
-          <tr><td><strong>2</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/quizzes/Quiz-2.PDF">📄 PDF</a></td></tr>
-          <tr><td><strong>3</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/quizzes/Quiz-3%20.pdf">📄 PDF</a></td></tr>
-          <tr><td><strong>4</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/quizzes/Quiz-4%20.pdf">📄 PDF</a></td></tr>
-          <tr><td><strong>5</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/quizzes/Quiz-5.pdf">📄 PDF</a></td></tr>
-          <tr><td><strong>6</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/quizzes/Quiz-6%E2%80%94The%20Last%20Chapter...pdf">📄 PDF</a></td></tr>
+          <tr><td><strong>1</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/static_files/quizzes/Quiz-1.pdf">📄 PDF</a></td></tr>
+          <tr><td><strong>2</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/static_files/quizzes/Quiz-2.PDF">📄 PDF</a></td></tr>
+          <tr><td><strong>3</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/static_files/quizzes/Quiz-3%20.pdf">📄 PDF</a></td></tr>
+          <tr><td><strong>4</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/static_files/quizzes/Quiz-4%20.pdf">📄 PDF</a></td></tr>
+          <tr><td><strong>5</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/static_files/quizzes/Quiz-5.pdf">📄 PDF</a></td></tr>
+          <tr><td><strong>6</strong></td><td><em>Title to be announced</em></td><td><a class="download-link" href="/static_files/static_files/quizzes/Quiz-6%E2%80%94The%20Last%20Chapter...pdf">📄 PDF</a></td></tr>
         </tbody>
       </table>
     </div>
   </div>
 </div>
-
 <div class="supplement-card">
   <h3>📊 Supplementary Material – Evaluation Metrics</h3>
-  <p>A concise yet comprehensive summary of key evaluation metrics in Information Retrieval (precision, recall, MAP, nDCG, etc.) accompanied by practical exercises.</p>
-  <a class="download-link" href="/static_files/lectures/metrics+ex.pdf" style="background:#e2e8f0;">📄 Download Metrics + Exercises (PDF)</a>
+  <p>A concise summary of key evaluation metrics in IR (precision, recall, MAP, nDCG, etc.) with exercises.</p>
+  <a class="download-link" href="/static_files/static_files/lectures/metrics+ex.pdf">📄 Download Metrics + Exercises (PDF)</a>
 </div>
