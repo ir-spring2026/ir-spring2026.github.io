@@ -103,19 +103,19 @@ permalink: /project/
       <tr>
         <td><strong>Phase 1</strong></td>
         <td>Build a search engine for document retrieval: implement an indexer, preprocess queries, parse boolean queries, and retrieve relevant documents. Use the provided autograder to validate correctness.</td>
-        <td><span class="deadline-badge">To be announced</span></td>
+        <td><span class="deadline-badge">Ordibehesht 23 , 1405</span></td>
         <td><a class="download-link" href="{{ site.baseurl }}/static_files/project/F1/MIR__4042__Phase-1.zip">📄 ZIP</a></td>
       </tr>
       <tr>
         <td><strong>Phase 2</strong></td>
         <td>Complete IR/ML pipeline on an IMDB movie dataset. Build inverted index, TF‑IDF matrix, feature selection, train/evaluate classifiers (Rocchio, k‑NN, Linear SVM) and clustering, analyze effect of feature reduction.</td>
-        <td><span class="deadline-badge">To be announced</span></td>
+        <td><span class="deadline-badge">Khordad 6 , 1405</span></td>
         <td><a class="download-link" href="{{ site.baseurl }}/static_files/project/F2/IR__Phase-2.zip">📄 ZIP</a></td>
       </tr>
       <tr>
         <td><strong>Phase 3</strong></td>
         <td>Neural Retrieval and Retrieval‑Augmented Generation (RAG) on IMDB data. Implement embedding generation, FAISS vector index, query expansion, RAG chain, and evaluate retrieval quality using a Jupyter notebook.</td>
-        <td><span class="deadline-badge">To be announced</span></td>
+        <td><span class="deadline-badge">Khordad 23 , 1405</span></td>
         <td><a class="download-link" href="{{ site.baseurl }}/static_files/project/F3/IR__Spring2026__Phase3.zip">📄 ZIP</a></td>
       </tr>
     </tbody>
