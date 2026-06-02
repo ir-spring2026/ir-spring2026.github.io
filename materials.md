@@ -7,28 +7,21 @@ permalink: /materials/
 <style>
   .materials-container {
     max-width: 100%;
-  }
-  .top-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: center;
-    margin-bottom: 2rem;
+    overflow-x: auto;
   }
   .image-card {
-    flex: 0 0 180px;
+    float: right;
+    margin: 0 0 20px 20px;
     background: #f8fafc;
     padding: 10px;
     border-radius: 16px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    max-width: 200px;
     text-align: center;
   }
   .image-card img {
     max-width: 100%;
     border-radius: 12px;
-  }
-  .intro-text {
-    flex: 1;
   }
   .books-table {
     width: 100%;
@@ -39,17 +32,17 @@ permalink: /materials/
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     margin: 1.5rem 0;
   }
-  .books-table th,
-  .books-table td {
-    padding: 14px 12px;
-    border-bottom: 1px solid #e2e8f0;
-    vertical-align: middle;
-  }
   .books-table thead tr {
     background: #1e3c72;
     color: #ffffff;
     text-align: left;
     font-weight: 600;
+  }
+  .books-table th,
+  .books-table td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: middle;
   }
   .books-table tbody tr {
     background-color: #ffffff;
@@ -95,6 +88,7 @@ permalink: /materials/
     padding: 1.2rem 1.5rem;
     margin: 1.5rem 0;
     border-left: 5px solid #1e3c72;
+    clear: both;
   }
   .similar-courses ul {
     margin: 0;
@@ -109,6 +103,7 @@ permalink: /materials/
     border-radius: 16px;
     padding: 1.2rem 1.5rem;
     border-left: 5px solid #1e3c72;
+    clear: both;
   }
   .extra-card h3 {
     margin-top: 0;
@@ -118,13 +113,9 @@ permalink: /materials/
     margin-bottom: 0;
   }
   @media (max-width: 700px) {
-    .top-section {
-      flex-direction: column;
-      align-items: center;
-    }
     .image-card {
-      flex-basis: auto;
-      max-width: 200px;
+      float: none;
+      margin: 0 auto 20px auto;
     }
     .books-table th, .books-table td {
       padding: 10px 8px;
@@ -137,17 +128,13 @@ permalink: /materials/
 </style>
 
 <div class="materials-container">
-  <div class="top-section">
-    <div class="image-card">
-      <img src="{{ site.baseurl }}/_images/screenshots/OIP.webp" alt="Information Retrieval illustration">
-    </div>
-    <div class="intro-text">
-      <p><strong>Lecture slides</strong> are available per session in the <a href="{{ site.baseurl }}/lectures/" class="external-link">Lectures section</a>. There is no single comprehensive handout.</p>
-    </div>
+  <div class="image-card">
+    <img src="{{ site.baseurl }}/_images/screenshots/OIP.webp" alt="Information Retrieval illustration">
   </div>
 
-  <h2>📖 Recommended Books & References</h2>
+  <p><strong>Lecture slides</strong> are available per session in the <a href="{{ site.baseurl }}/lectures/" class="external-link">Lectures section</a>. There is no single comprehensive handout.</p>
 
+  <h2>📖 Recommended Books & References</h2>
   <table class="books-table">
     <thead>
       <tr>
@@ -158,19 +145,19 @@ permalink: /materials/
     </thead>
     <tbody>
       <tr>
-        <td><strong>[MRS]</strong></th>
-        <td>Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze – <em>Introduction to Information Retrieval</em> (Cambridge, 2008)</th>
-        <td><a class="download-link" href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">📄 PDF</a></th>
+        <td><strong>[MRS]</strong></td>
+        <td>Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze – <em>Introduction to Information Retrieval</em> (Cambridge, 2008)</td>
+        <td><a class="download-link" href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">📄 PDF</a></td>
       </tr>
       <tr>
-        <td><strong>[HNG]</strong></th>
-        <td>Hang Li – <em>Learning to Rank for Information Retrieval and Natural Language Processing</em> (Morgan & Claypool, 2011)</th>
-        <td><a class="download-link" href="https://www.iro.umontreal.ca/~nie/IFT6255/Books/Learning-to-rank.pdf">📄 PDF</a></th>
+        <td><strong>[HNG]</strong></td>
+        <td>Hang Li – <em>Learning to Rank for Information Retrieval and Natural Language Processing</em> (Morgan & Claypool, 2011)</td>
+        <td><a class="download-link" href="https://www.iro.umontreal.ca/~nie/IFT6255/Books/Learning-to-rank.pdf">📄 PDF</a></td>
       </tr>
       <tr>
-        <td><strong>[MC]</strong></th>
-        <td>Bhaskar Mitra, Nick Craswell – <em>An Introduction to Neural Information Retrieval</em> (Foundations and Trends in IR, 2018)</th>
-        <td><a class="external-link" href="https://www.emerald.com/ftinr/article-abstract/13/1/1/1328679/An-Introduction-to-Neural-Information-Retrieval?redirectedFrom=fulltext">🔗 Access Link</a></th>
+        <td><strong>[MC]</strong></td>
+        <td>Bhaskar Mitra, Nick Craswell – <em>An Introduction to Neural Information Retrieval</em> (Foundations and Trends in IR, 2018)</td>
+        <td><a class="external-link" href="https://www.emerald.com/ftinr/article-abstract/13/1/1/1328679/An-Introduction-to-Neural-Information-Retrieval?redirectedFrom=fulltext">🔗 Access Link</a></td>
       </tr>
     </tbody>
   </table>
