@@ -12,7 +12,7 @@ permalink: /materials/
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 2rem;
   }
   .image-card {
@@ -148,11 +148,32 @@ permalink: /materials/
 
   <h2>📖 Recommended Books & References</h2>
 
-| Ref. | Book Title / Authors | Download / Link |
-|:----:|----------------------|-----------------|
-| **[MRS]** | Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze – *Introduction to Information Retrieval* (Cambridge, 2008) | [📄 PDF](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf) |
-| **[HNG]** | Hang Li – *Learning to Rank for Information Retrieval and Natural Language Processing* (Morgan & Claypool, 2011) | [📄 PDF](https://www.iro.umontreal.ca/~nie/IFT6255/Books/Learning-to-rank.pdf) |
-| **[MC]** | Bhaskar Mitra, Nick Craswell – *An Introduction to Neural Information Retrieval* (Foundations and Trends in IR, 2018) | [🔗 Access Link](https://www.emerald.com/ftinr/article-abstract/13/1/1/1328679/An-Introduction-to-Neural-Information-Retrieval?redirectedFrom=fulltext) |
+  <table class="books-table">
+    <thead>
+      <tr>
+        <th>Ref.</th>
+        <th>Book Title / Authors</th>
+        <th>Download / Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>[MRS]</strong></th>
+        <td>Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze – <em>Introduction to Information Retrieval</em> (Cambridge, 2008)</th>
+        <td><a class="download-link" href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">📄 PDF</a></th>
+      </tr>
+      <tr>
+        <td><strong>[HNG]</strong></th>
+        <td>Hang Li – <em>Learning to Rank for Information Retrieval and Natural Language Processing</em> (Morgan & Claypool, 2011)</th>
+        <td><a class="download-link" href="https://www.iro.umontreal.ca/~nie/IFT6255/Books/Learning-to-rank.pdf">📄 PDF</a></th>
+      </tr>
+      <tr>
+        <td><strong>[MC]</strong></th>
+        <td>Bhaskar Mitra, Nick Craswell – <em>An Introduction to Neural Information Retrieval</em> (Foundations and Trends in IR, 2018)</th>
+        <td><a class="external-link" href="https://www.emerald.com/ftinr/article-abstract/13/1/1/1328679/An-Introduction-to-Neural-Information-Retrieval?redirectedFrom=fulltext">🔗 Access Link</a></th>
+      </tr>
+    </tbody>
+  </table>
 
   <div class="similar-courses">
     <h3>🌐 Similar Courses</h3>
