@@ -94,27 +94,27 @@ permalink: /project/
     <thead>
       <tr>
         <th style="width: 10%;">Phase</th>
-        <th style="width: 50%;">Goal / Description</th>
-        <th style="width: 20%;">Deadline</th>
+        <th style="width: 55%;">Description</th>
+        <th style="width: 15%;">Deadline</th>
         <th style="width: 20%;">Download</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><strong>1</strong></td>
-        <td>Implement a simple indexer and Boolean search over a document collection.</td>
+        <td><strong>Phase 1</strong></td>
+        <td>Build a search engine for document retrieval: implement an indexer, preprocess queries, parse boolean queries, and retrieve relevant documents. Use the provided autograder to validate correctness.</td>
         <td><span class="deadline-badge">To be announced</span></td>
         <td><a class="download-link" href="{{ site.baseurl }}/static_files/project/F1/MIR__4042__Phase-1.zip">📄 ZIP</a></td>
       </tr>
       <tr>
-        <td><strong>2</strong></td>
-        <td>Implement TF‑IDF, cosine similarity, and evaluation metrics.</td>
+        <td><strong>Phase 2</strong></td>
+        <td>Complete IR/ML pipeline on an IMDB movie dataset. Build inverted index, TF‑IDF matrix, feature selection, train/evaluate classifiers (Rocchio, k‑NN, Linear SVM) and clustering, analyze effect of feature reduction.</td>
         <td><span class="deadline-badge">To be announced</span></td>
         <td><a class="download-link" href="{{ site.baseurl }}/static_files/project/F2/IR__Phase-2.zip">📄 ZIP</a></td>
       </tr>
       <tr>
-        <td><strong>3</strong></td>
-        <td>Apply machine learning ranking models (e.g., Ranking SVM or LightGBM) and compare with traditional methods.</td>
+        <td><strong>Phase 3</strong></td>
+        <td>Neural Retrieval and Retrieval‑Augmented Generation (RAG) on IMDB data. Implement embedding generation, FAISS vector index, query expansion, RAG chain, and evaluate retrieval quality using a Jupyter notebook.</td>
         <td><span class="deadline-badge">To be announced</span></td>
         <td><a class="download-link" href="{{ site.baseurl }}/static_files/project/F3/IR__Spring2026__Phase3.zip">📄 ZIP</a></td>
       </tr>
@@ -123,5 +123,5 @@ permalink: /project/
 </div>
 
 <div class="note-card">
-  <p><strong>📌 Note:</strong> Detailed instructions and submission guidelines for each phase will be announced via the Telegram channel and this website. If you face any issue with downloading, please contact the teaching assistants.</p>
+  <p><strong>📌 Note:</strong> Detailed instructions and submission guidelines will be provided via the Telegram channel. The autograder and Jupyter notebooks contain specific TODO sections. Make sure to restart and run all cells before final submission. For any download issues, contact the teaching assistants.</p>
 </div>
