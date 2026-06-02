@@ -1,21 +1,30 @@
 ---
 layout: page
-title: Course Project
+title: پروژه درس
 permalink: /project/
 ---
 
-# Final Project
+# پروژه بازیابی اطلاعات (IR)
 
-This page outlines the three main phases of the course project. Detailed instructions, deadlines, and submission guidelines for each phase will be published here soon.
-
-## Phase 1: Problem Analysis & Design
-*Details coming soon.*
-
-## Phase 2: Implementation
-*Details coming soon.*
-
-## Phase 3: Testing & Final Report
-*Details coming soon.*
+این درس شامل **سه فاز پروژه** است. هر فاز شامل یک فایل فشرده (ZIP) حاوی دستورالعمل‌ها، داده‌ها و کدهای اولیه می‌باشد. برای دانلود هر فاز، روی لینک مربوطه کلیک کنید.
 
 ---
-**Please check back later for updates.**
+
+## 📁 فاز اول: نمایه‌سازی و جستجوی بولین
+- **فایل پروژه**: [دانلود MIR__4042__Phase-1.zip]({{ site.baseurl }}/static_files/project/F1/MIR__4042__Phase-1.zip)
+- هدف: پیاده‌سازی یک نمایه‌ساز ساده و جستجوی بولین روی مجموعه اسناد.
+- تاریخ تحویل: **به زودی اعلام می‌شود**
+
+## 📁 فاز دوم: مدل فضای برداری و رتبه‌بندی
+- **فایل پروژه**: [دانلود IR__Phase-2.zip]({{ site.baseurl }}/static_files/project/F2/IR__Phase-2.zip)
+- هدف: پیاده‌سازی TF-IDF، محاسبه شباهت کسینوسی و ارزیابی.
+- تاریخ تحویل: **به زودی اعلام می‌شود**
+
+## 📁 فاز سوم: رتبه‌بندی مبتنی بر یادگیری ماشین
+- **فایل پروژه**: [دانلود IR__Spring2026__Phase3.zip]({{ site.baseurl }}/static_files/project/F3/IR__Spring2026__Phase3.zip)
+- هدف: استفاده از مدل‌های رتبه‌بندی (مانند Ranking SVM یا LightGBM) و مقایسه با روش‌های سنتی.
+- تاریخ تحویل: **به زودی اعلام می‌شود**
+
+---
+
+> توجه: جزئیات کامل هر فاز و نحوه تحویل از طریق کانال تلگرام و همین وب‌سایت اعلام خواهد شد. در صورت بروز مشکل در دانلود، با دستیاران آموزشی تماس بگیرید.
