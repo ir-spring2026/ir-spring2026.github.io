@@ -115,7 +115,7 @@ permalink: /project/
       <tr>
         <td><strong>Phase 3</strong></td>
         <td>Neural Retrieval and Retrieval‑Augmented Generation (RAG) on IMDB data. Implement embedding generation, FAISS vector index, query expansion, RAG chain, and evaluate retrieval quality using a Jupyter notebook.</td>
-        <td><span class="deadline-badge">Khordad 23 , 1405</span></td>
+        <td><span class="deadline-badge">Khordad 27 , 1405</span></td>
         <td><a class="download-link" href="{{ site.baseurl }}/static_files/project/F3/IR__Spring2026__Phase3.zip">📄 ZIP</a></td>
       </tr>
     </tbody>
