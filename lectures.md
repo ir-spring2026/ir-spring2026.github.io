@@ -108,36 +108,40 @@ permalink: /lectures/
 </style>
 
 <div class="two-columns">
-  <!-- ستون جزوه‌ها (با دو static_files) -->
+  <!-- ستون جزوه‌ها -->
   <div class="column">
     <h2>📖 Lectures (Sessions 1–21)</h2>
     <div class="lectures-container">
       <table class="lectures-table">
         <thead>
-          <tr><th>Session</th><th>Chapter Title</th><th>Download</th></tr>
+          <tr>
+            <th>Session</th>
+            <th>Chapter Title</th>
+            <th>Download</th>
+          </tr>
         </thead>
         <tbody>
-          <tr><td style="text-align:center;">1</th><td>Boolean retrieval</th><td><a class="download-link" href="/static_files/static_files/lectures/ch1.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">2</th><td>The term vocabulary and postings lists</th><td><a class="download-link" href="/static_files/static_files/lectures/ch2.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">3</th><td>Dictionaries and tolerant retrieval</th><td><a class="download-link" href="/static_files/static_files/lectures/ch3.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">4</th><td>Index construction</th><td><a class="download-link" href="/static_files/static_files/lectures/ch4.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">5</th><td>Index compression</th><td><a class="download-link" href="/static_files/static_files/lectures/ch5.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">6</th><td>Scoring, term weighting and the vector space model</th><td><a class="download-link" href="/static_files/static_files/lectures/ch6.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">7</th><td>Computing scores in a complete search system</th><td><a class="download-link" href="/static_files/static_files/lectures/ch7.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">8</th><td>Evaluation in information retrieval</th><td><a class="download-link" href="/static_files/static_files/lectures/ch8.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">9</th><td><em>Will be added later</em></th><td><span class="future-badge">🔜 Coming soon</span></th></tr>
-          <tr><td style="text-align:center;">10</th><td><em>Will be added later</em></th><td><span class="future-badge">🔜 Coming soon</span></th></tr>
-          <tr><td style="text-align:center;">11</th><td>Chapter 11 (title to be confirmed)</th><td><a class="download-link" href="/static_files/static_files/lectures/ch11.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">12</th><td><em>Will be added later</em></th><td><span class="future-badge">🔜 Coming soon</span></th></tr>
-          <tr><td style="text-align:center;">13</th><td>Chapter 13 (title to be confirmed)</th><td><a class="download-link" href="/static_files/static_files/lectures/ch13.pdf">📄 PDF</a></th></td>
-          <tr><td style="text-align:center;">14</th><td>Vector space classification</th><td><a class="download-link" href="/static_files/static_files/lectures/Ch14.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">15</th><td>Support vector machines and machine learning on documents</th><td><a class="download-link" href="/static_files/static_files/lectures/Ch15.pdf">📄 PDF</a></th></td>
-          <tr><td style="text-align:center;">16</th><td><em>Will be added later</em></th><td><span class="future-badge">🔜 Coming soon</span></th></tr>
-          <td><td style="text-align:center;">17</th><td><em>Will be added later</em></th><td><span class="future-badge">🔜 Coming soon</span></th></tr>
-          <tr><td style="text-align:center;">18</th><td><em>Will be added later</em></th><td><span class="future-badge">🔜 Coming soon</span></th></tr>
-          <tr><td style="text-align:center;">19</th><td>Web search basics</th><td><a class="download-link" href="/static_files/static_files/lectures/Ch19.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">20</th><td>Web crawling and indexes</th><td><a class="download-link" href="/static_files/static_files/lectures/Ch20.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">21</th><td>Link analysis</th><td><a class="download-link" href="/static_files/static_files/lectures/Ch21.pdf">📄 PDF</a></th></tr>
+          <tr><td style="text-align:center;">1</td><td>Boolean retrieval</td><td><a class="download-link" href="/static_files/static_files/lectures/ch1.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">2</td><td>The term vocabulary and postings lists</td><td><a class="download-link" href="/static_files/static_files/lectures/ch2.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">3</td><td>Dictionaries and tolerant retrieval</td><td><a class="download-link" href="/static_files/static_files/lectures/ch3.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">4</td><td>Index construction</td><td><a class="download-link" href="/static_files/static_files/lectures/ch4.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">5</td><td>Index compression</td><td><a class="download-link" href="/static_files/static_files/lectures/ch5.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">6</td><td>Scoring, term weighting and the vector space model</td><td><a class="download-link" href="/static_files/static_files/lectures/ch6.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">7</td><td>Computing scores in a complete search system</td><td><a class="download-link" href="/static_files/static_files/lectures/ch7.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">8</td><td>Evaluation in information retrieval</td><td><a class="download-link" href="/static_files/static_files/lectures/ch8.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">9</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+          <tr><td style="text-align:center;">10</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+          <tr><td style="text-align:center;">11</td><td>Chapter 11 (title to be confirmed)</td><td><a class="download-link" href="/static_files/static_files/lectures/ch11.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">12</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+          <tr><td style="text-align:center;">13</td><td>Chapter 13 (title to be confirmed)</td><td><a class="download-link" href="/static_files/static_files/lectures/ch13.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">14</td><td>Vector space classification</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch14.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">15</td><td>Support vector machines and machine learning on documents</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch15.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">16</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+          <tr><td style="text-align:center;">17</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+          <tr><td style="text-align:center;">18</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+          <tr><td style="text-align:center;">19</td><td>Web search basics</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch19.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">20</td><td>Web crawling and indexes</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch20.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">21</td><td>Link analysis</td><td><a class="download-link" href="/static_files/static_files/lectures/Ch21.pdf">📄 PDF</a></td></tr>
         </tbody>
       </table>
     </div>
@@ -148,14 +152,20 @@ permalink: /lectures/
     <h2>📝 Quizzes</h2>
     <div class="lectures-container">
       <table class="lectures-table">
-        <thead><tr><th>Quiz</th><th>Title</th><th>Download</th></tr></thead>
+        <thead>
+          <tr>
+            <th>Quiz</th>
+            <th>Title</th>
+            <th>Download</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr><td style="text-align:center;">1</th><td>Quiz 1</th><td><a class="download-link" href="/static_files/quizzes/Quiz-1.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">2</th><td>Quiz 2</th><td><a class="download-link" href="/static_files/quizzes/Quiz-2.PDF">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">3</th><td>Quiz 3</th><td><a class="download-link" href="/static_files/quizzes/Quiz-3%20.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">4</th><td>Quiz 4</th><td><a class="download-link" href="/static_files/quizzes/Quiz-4%20.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">5</th><td>Quiz 5</th><td><a class="download-link" href="/static_files/quizzes/Quiz-5.pdf">📄 PDF</a></th></tr>
-          <tr><td style="text-align:center;">6</th><td>Quiz 6</th><td><a class="download-link" href="/static_files/quizzes/Quiz-6%E2%80%94The%20Last%20Chapter...pdf">📄 PDF</a></th></tr>
+          <tr><td style="text-align:center;">1</td><td>Quiz 1</td><td><a class="download-link" href="/static_files/quizzes/Quiz-1.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">2</td><td>Quiz 2</td><td><a class="download-link" href="/static_files/quizzes/Quiz-2.PDF">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">3</td><td>Quiz 3</td><td><a class="download-link" href="/static_files/quizzes/Quiz-3%20.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">4</td><td>Quiz 4</td><td><a class="download-link" href="/static_files/quizzes/Quiz-4%20.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">5</td><td>Quiz 5</td><td><a class="download-link" href="/static_files/quizzes/Quiz-5.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">6</td><td>Quiz 6</td><td><a class="download-link" href="/static_files/quizzes/Quiz-6%E2%80%94The%20Last%20Chapter...pdf">📄 PDF</a></td></tr>
         </tbody>
       </table>
     </div>
@@ -171,30 +181,12 @@ permalink: /lectures/
           </tr>
         </thead>
         <tbody>
-          <tr><td style="text-align:center;">1</th>
-            <td>Quiz 1 Answer</th>
-            <td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-1-Answer.pdf">📄 PDF</a></th>
-          </tr>
-          <tr><td style="text-align:center;">2</th>
-            <td>Quiz 2 Answer</th>
-            <td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-2-Answer.pdf">📄 PDF</a></th>
-          </tr>
-          <tr><td style="text-align:center;">3</th>
-            <td>Quiz 3 Answer</th>
-            <td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-3-Answer.pdf">📄 PDF</a></th>
-          </tr>
-          <tr><td style="text-align:center;">4</th>
-            <td>Quiz 4 Answer</th>
-            <td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-4-Answer.pdf">📄 PDF</a></th>
-          </tr>
-          <tr><td style="text-align:center;">5</th>
-            <td>Quiz 5 Answer</th>
-            <td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-5-Answer.pdf">📄 PDF</a></th>
-          </tr>
-          <tr><td style="text-align:center;">6</th>
-            <td>Quiz 6 Answer (Soon)</th>
-            <td><span class="future-badge">🔜 Coming soon</span></th>
-          </tr>
+          <tr><td style="text-align:center;">1</td><td>Quiz 1 Answer</td><td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-1-Answer.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">2</td><td>Quiz 2 Answer</td><td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-2-Answer.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">3</td><td>Quiz 3 Answer</td><td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-3-Answer.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">4</td><td>Quiz 4 Answer</td><td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-4-Answer.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">5</td><td>Quiz 5 Answer</td><td><a class="download-link" href="/static_files/answer_Q/IR-Quiz-5-Answer.pdf">📄 PDF</a></td></tr>
+          <tr><td style="text-align:center;">6</td><td>Quiz 6 Answer (Soon)</td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
         </tbody>
       </table>
     </div>
