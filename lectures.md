@@ -18,7 +18,7 @@ permalink: /lectures/
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   }
   .lectures-table thead tr {
-    background: #1e3c72;  /* تیره با حس دانشگاهی */
+    background: #1e3c72;
     color: #ffffff;
     text-align: left;
     font-weight: 600;
@@ -94,9 +94,9 @@ permalink: /lectures/
   <table class="lectures-table">
     <thead>
       <tr>
-        <th style="width: 12%;">جلسه</th>
-        <th style="width: 60%;">عنوان فصل</th>
-        <th style="width: 28%;">دانلود</th>
+        <th style="width: 12%;">Session</th>
+        <th style="width: 60%;">Chapter Title</th>
+        <th style="width: 28%;">Download</th>
       </tr>
     </thead>
     <tbody>
@@ -108,16 +108,16 @@ permalink: /lectures/
       <tr><td>6</td><td>Scoring, term weighting and the vector space model</td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/ch6.pdf">📄 PDF</a></td></tr>
       <tr><td>7</td><td>Computing scores in a complete search system</td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/ch7.pdf">📄 PDF</a></td></tr>
       <tr><td>8</td><td>Evaluation in information retrieval</td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/ch8.pdf">📄 PDF</a></td></tr>
-      <tr><td>9</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 به زودی</span></td></tr>
-      <tr><td>10</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 به زودی</span></td></tr>
+      <tr><td>9</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+      <tr><td>10</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
       <tr><td>11</td><td>Chapter 11 <em>(title to be confirmed)</em></td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/ch11.pdf">📄 PDF</a></td></tr>
-      <tr><td>12</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 به زودی</span></td></tr>
+      <tr><td>12</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
       <tr><td>13</td><td>Chapter 13 <em>(title to be confirmed)</em></td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/ch13.pdf">📄 PDF</a></td></tr>
       <tr><td>14</td><td>Vector space classification</td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/Ch14.pdf">📄 PDF</a></td></tr>
       <tr><td>15</td><td>Support vector machines and machine learning on documents</td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/Ch15.pdf">📄 PDF</a></td></tr>
-      <tr><td>16</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 به زودی</span></td></tr>
-      <tr><td>17</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 به زودی</span></td></tr>
-      <tr><td>18</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 به زودی</span></td></tr>
+      <tr><td>16</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+      <tr><td>17</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
+      <tr><td>18</td><td><em>Will be added later</em></td><td><span class="future-badge">🔜 Coming soon</span></td></tr>
       <tr><td>19</td><td>Web search basics</td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/Ch19.pdf">📄 PDF</a></td></tr>
       <tr><td>20</td><td>Web crawling and indexes</td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/Ch20.pdf">📄 PDF</a></td></tr>
       <tr><td>21</td><td>Link analysis</td><td><a class="download-link" href="{{ site.baseurl }}/static_files/lectures/Ch21.pdf">📄 PDF</a></td></tr>
